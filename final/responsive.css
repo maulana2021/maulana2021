@@ -1,0 +1,19 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .container h1 {
+        color: red;
+    }
+}
+
+/* For Smartphones */
+@media all and (max-width: 768px){
+	.mobile-menu {
+		display: block;
+	}
+	header ul { 
+		display: none;
+	}
+    .container h1 {
+        color: red;
+    }
+}
